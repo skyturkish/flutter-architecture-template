@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
-
+// Mesela bunu her sayfada internet gittiği an gösterebileceğimiz bir Lottie, yada yönlenedirebilceğimiz bir sayfanın olması için kullanabiliriz.
 class BaseView<T extends Store> extends StatefulWidget {
   final Widget Function(BuildContext context, T value) onPageBuilder;
   final T viewModel;
