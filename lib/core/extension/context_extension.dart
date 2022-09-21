@@ -54,15 +54,21 @@ extension PaddingExtensionSymetric on BuildContext {
   EdgeInsets get paddingHorizontalMedium => EdgeInsets.symmetric(horizontal: mediumValue);
   EdgeInsets get paddingHorizontalLarge => EdgeInsets.symmetric(horizontal: largeValue);
   EdgeInsets get paddingHorizontalLargeX => EdgeInsets.symmetric(horizontal: largeXValue);
-
-  EdgeInsets get paddingXHorizontalLargeX => EdgeInsets.symmetric(horizontal: largeXXValue);
+  EdgeInsets get paddingHorizontalLargeXX => EdgeInsets.symmetric(horizontal: largeXXValue);
 
   EdgeInsets get paddingVerticalSmall => EdgeInsets.symmetric(vertical: smallValue);
   EdgeInsets get paddingVerticalMedium => EdgeInsets.symmetric(vertical: mediumValue);
   EdgeInsets get paddingVerticalLarge => EdgeInsets.symmetric(vertical: largeValue);
   EdgeInsets get paddingVerticalLargeX => EdgeInsets.symmetric(vertical: largeXValue);
-
   EdgeInsets get paddingVerticaLargeXX => EdgeInsets.symmetric(vertical: largeXXValue);
+}
+
+extension PaddingAll on BuildContext {
+  EdgeInsets get paddingAllSmall => EdgeInsets.all(smallValue);
+  EdgeInsets get paddingAllMedium => EdgeInsets.all(mediumValue);
+  EdgeInsets get paddingAllLarge => EdgeInsets.all(largeValue);
+  EdgeInsets get paddingAllLargeX => EdgeInsets.all(largeXValue);
+  EdgeInsets get paddingAllLargeXX => EdgeInsets.all(largeXXValue);
 }
 
 extension PageExtension on BuildContext {
