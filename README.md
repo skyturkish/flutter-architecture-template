@@ -5,3 +5,7 @@ bak eğer tüm sayfaların olduğu bir özeelikvarsa mesela, uygulamayı arkaya 
 
 
 normalize şu demek galiba, bir özellik değiştiği zaman diğer yerlerde de orayı güncellemene gerek kalmamlı, yani immutable veriler üzerinden birbirlerine ulaşmalısın 
+
+
+
+readMe kısmında projenin motivasyonu yazılır kendi motivasyonun değil
